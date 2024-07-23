@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(245, 228, 205);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 250px;
+    text-transform: uppercase;
+}
+
+form{
+    text-align: center;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+input{
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+form button{
+    background-color: rgb(37, 199, 37);
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    counter-reset: list-counter;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    width: 100%;
+    max-width: 400px;
+}
+
+li.traco-completo {
+    text-decoration: line-through;
+    color: #777;
+}
